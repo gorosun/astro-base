@@ -7,7 +7,9 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -31,10 +33,25 @@
   },
   "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
     "@shadcn/ui": "^0.0.4",
+    "@storybook/addon-docs": "^8.3.5",
+    "@storybook/addon-essentials": "^8.3.5",
+    "@storybook/addon-interactions": "^8.3.5",
+    "@storybook/addon-links": "^8.3.5",
+    "@storybook/addon-onboarding": "8.3.1",
+    "@storybook/addon-themes": "^8.3.5",
+    "@storybook/blocks": "^8.3.5",
+    "@storybook/builder-vite": "^8.3.5",
+    "@storybook/react": "^8.3.5",
+    "@storybook/react-vite": "^8.3.5",
+    "@storybook/test": "^8.3.5",
+    "@storybook/theming": "^8.3.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "storybook": "8.3.5",
     "tailwind-merge": "^2.5.3",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^5.4.8"
   }
 }
